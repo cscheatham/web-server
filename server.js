@@ -1,7 +1,11 @@
 const express = require('express');
 const hbs = require('hbs');
 const app = express();
+<<<<<<< HEAD
 const port = 5000;
+=======
+const port = 8000;
+>>>>>>> port_test
 
 // Set up a view engine to hbs
 app.set('view engine', 'hbs');
